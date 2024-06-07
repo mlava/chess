@@ -15,6 +15,10 @@
   ],
   "author": "Mark Lavercombe",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlava/chess/issues"
+  },
+  "homepage": "https://github.com/mlava/chess#readme",
   "devDependencies": {
     "@babel/core": "^7.23.6",
     "@babel/preset-env": "^7.23.6",
@@ -24,6 +28,13 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "chessground": "^9.0.4"
+    "@react-chess-tools/react-chess-puzzle": "^0.2.1",
+    "roamjs-components": "^0.82.13"
+  },
+  "overrides": {
+    "@react-chess-tools/react-chess-puzzle": {
+      "react": "17.0.2",
+      "react-dom": "17.0.2"
+    }
   }
 }

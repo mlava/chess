@@ -2,15 +2,12 @@
     display: none;
 }
 
-[data-tag^="lichess-hint"] + .rm-highlight {
+[data-tag^="lichess-pgn"]+.rm-highlight,
+[data-tag^="lichess-fen"]+.rm-highlight {
     display: none !important;
 }
 
-[data-page-links^='["lichess"]'] .roam-block {
-    height: 444px !important;
-}
-
-[data-page-links^='["lichess"]'] .hoverparent, [data-page-links^='["lichess"]'] .react-resizable, [data-page-links^='["lichess"]'] iframe {
-    height: 444px !important;
-    width: 400px !important;
+.chess-element-parent button {
+    background-color: rgb(240, 217, 181);
+    color: rgb(181, 136, 99) !important;
 }
