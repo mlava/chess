@@ -11,3 +11,7 @@
     background-color: rgb(240, 217, 181);
     color: rgb(181, 136, 99) !important;
 }
+
+.chess-element-parent {
+    min-width: 400px !important;
+}
