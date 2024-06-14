@@ -2,7 +2,7 @@ Import the Chess puzzle of the day from Lichess to your Roam Research graph.
 
 Using the Lichess API, you can now embed the puzzle of the day and test yourself on the next best move(s).
 
-<img width="378" alt="image" src="https://github.com/mlava/chess/assets/6857790/2efb64b8-474c-46bf-a372-35c3f2591b11">
+![Screen Recording 2024-06-14 at 7 44 40 PM](https://github.com/mlava/chess/assets/6857790/17874ee2-10b8-49c7-b6a8-1c311e5cc884)
 
 You need to get an API key from https://rapidapi.com/KeeghanM/api/chess-puzzles and then enter it in the Roam Depot settings.
 
